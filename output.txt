@@ -1,0 +1,5 @@
+
+WARNING: The binary 'main.exe' is deprecated.
+ Please use 'whisper-cli.exe' instead.
+ See https://github.com/ggerganov/whisper.cpp/tree/master/examples/deprecation-warning/README.md for more information.
+
