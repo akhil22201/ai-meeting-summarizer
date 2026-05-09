@@ -57,7 +57,25 @@ pip install -r requirements.txt
 
 ---
 
-### Step 3: Install and Run Ollama
+### Step 3: Install Whisper.cpp
+
+```bash
+git clone https://github.com/ggerganov/whisper.cpp
+cd whisper.cpp
+make
+```
+
+---
+
+### Step 4: Download Whisper Model
+
+```bash
+./models/download-ggml-model.sh small
+```
+
+---
+
+### Step 5: Install and Run Ollama
 
 ```bash
 ollama run llama3.2
@@ -65,7 +83,7 @@ ollama run llama3.2
 
 ---
 
-### Step 4: Run the Application
+### Step 6: Run the Application
 
 ```bash
 python main.py
@@ -132,4 +150,4 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Akhil 
+Akhil
